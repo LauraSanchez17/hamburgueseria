@@ -401,3 +401,41 @@ main #aboutus .columna:hover .marco img {
 
 
 /* Fin main section about us */
+
+
+/* Inicio main section our blog */
+
+
+main .articulosblog {
+    width: 100%;
+}
+
+main #ourblogs article {
+    text-align: left;
+
+}
+
+main #ourblogs article p {
+    color: var(--gris);
+    margin-top: 1em;
+
+}
+
+main #ourblogs article div i {
+    color: var(--color-principal);
+    font-size: 2em;
+    border: 2px solid var(--color-principal);
+    padding: 0.8rem;
+}
+
+
+main #ourblogs article h3 {
+    color: black;
+    margin: 1em 0;
+}
+
+@media (min-width: 48.000em) {
+    main #ourblogs article {
+        width: 33.333%;
+    }
+}
