@@ -1,0 +1,17 @@
+body {
+    background: var(--color-secundario);
+    color: white;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion li {
+    padding: 10px;
+}
+
+.navegacion li:hover {
+    background: var(--color-principal);
+}
