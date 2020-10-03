@@ -402,23 +402,42 @@ main #aboutus .columna:hover .marco img {
 
 /* Fin main section about us */
 
-
 /* Inicio main section our blog */
 
-
-main .articulosblog {
-    width: 100%;
-}
-
-main #ourblogs article {
+main .articulos {
     text-align: left;
-
+    padding: 20px;
+    width: 50%;
 }
 
-main #ourblogs article p {
+.textofecha {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenblog {
+    display: flex;
+    justify-content: right;
+    position: relative
+}
+
+main .fecha {
+    position: absolute;
+    background-color: rgba(250, 87, 58, .7);
+    padding: 10px;
+}
+
+
+#ourblogs .articulosblog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #ourblogs article .articulo-text {
     color: var(--gris);
     margin-top: 1em;
-
 }
 
 main #ourblogs article div i {
@@ -437,5 +456,7 @@ main #ourblogs article h3 {
 @media (min-width: 48.000em) {
     main #ourblogs article {
         width: 33.333%;
+        <<<<<<< Updated upstream=======min-width: 300px;
+        >>>>>>>Stashed changes
     }
 }
