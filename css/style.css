@@ -423,6 +423,11 @@ main .articulos {
     position: relative
 }
 
+.articulos h4 {
+    color: var(--color-principal);
+    font-size: 12px;
+}
+
 main .fecha {
     position: absolute;
     background-color: rgba(250, 87, 58, .7);
@@ -438,6 +443,13 @@ main .fecha {
 main #ourblogs article .articulo-text {
     color: var(--gris);
     margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+
+.articulos .enlace {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 main #ourblogs article div i {
@@ -456,7 +468,6 @@ main #ourblogs article h3 {
 @media (min-width: 48.000em) {
     main #ourblogs article {
         width: 33.333%;
-        <<<<<<< Updated upstream=======min-width: 300px;
-        >>>>>>>Stashed changes
+        min-width: 300px;
     }
 }
