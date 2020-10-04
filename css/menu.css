@@ -1,5 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #fa573a;
+    --color-secundario: #21242e;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundaria: 'Handlee', cursive;
+    --anchoMaximo: 1100px;
+    --gris: #aaa;
+
+}
+
 body {
-    background: var(--color-secundario);
+    background: rgb(28, 28, 28);
+    color: white;
+}
+
+.today {
     color: white;
 }
 
@@ -14,4 +32,90 @@ body {
 
 .navegacion li:hover {
     background: var(--color-principal);
+}
+
+.todaysoffer {
+    padding-bottom: 1.5em;
+}
+
+.todaysoffer h3 {
+    font-weight: bold;
+}
+
+.offers-plato h3 {
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.offers-plato span {
+    color: var(--color-principal);
+}
+
+.offers-plato .enlace {
+    padding-bottom: 1em;
+}
+
+.todaysoffer p {
+    font-size: 12px;
+}
+
+.offers-plato p {
+    font-size: 12px;
+}
+
+.principal {
+    position: relative;
+    line-height: 1.5em;
+}
+
+.flechatop {
+    background-color: var(--color-principal);
+    color: white;
+    width: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 90%;
+
+}
+
+@media (min-width: 48em) {
+    .principal {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-todaysoffer {
+        max-width: 30%;
+    }
+
+    .offers {
+        max-width: 70%;
+    }
+
+    .nav {
+        height: 50%;
+    }
+
+    .todaysoffer {
+        height: 50%;
+    }
+
+    .flechatop {
+        display: none;
+    }
+
+    .article-plato {
+        display: flex;
+        flex-direction: row;
+        margin: 3em 2em;
+    }
+
+    .texto-plato {
+        padding: 2em;
+    }
+
+    .offers-plato {
+        height: 300px;
+    }
 }
