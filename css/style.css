@@ -438,6 +438,7 @@ main .fecha {
 #ourblogs .articulosblog {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 3em;
 }
 
 main #ourblogs article .articulo-text {

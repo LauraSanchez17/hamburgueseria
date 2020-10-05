@@ -58,7 +58,10 @@ body {
 .todaysoffer p {
     font-size: 12px;
 }
-
+.todaysoffer .underline {
+    margin: 0;
+    padding: 1em 0;
+}
 .offers-plato p {
     font-size: 12px;
 }
@@ -75,7 +78,8 @@ body {
     padding: 0.5em 0.5em;
     text-decoration: none;
     position: absolute;
-    margin-left: 90%;
+    margin-left: 95%;
+    margin-bottom: 4em;
 
 }
 
@@ -115,6 +119,11 @@ body {
 
     .texto-plato {
         padding: 0.5em 1em;
+    }
+
+    .texto-plato span {
+        display: inline-block;
+        padding-left: 1em;
     }
 
     .imagen-plato {
