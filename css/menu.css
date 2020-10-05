@@ -87,11 +87,13 @@ body {
 
     .nav-todaysoffer {
         max-width: 30%;
+        margin-top: 3em;
     }
 
     .offers {
         max-width: 70%;
     }
+
 
     .nav {
         height: 50%;
@@ -108,9 +110,14 @@ body {
     .article-plato {
         display: flex;
         flex-direction: row;
-        margin: 3em 2em;
+        margin: 2em 1em;
     }
 
     .texto-plato {
-        padding: 2em;
+        padding: 0.5em 1em;
     }
+
+    .imagen-plato {
+        width: 30%;
+    }
+}
