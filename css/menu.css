@@ -66,6 +66,7 @@ body {
     font-size: 12px;
 }
 
+
 .principal {
     position: relative;
     line-height: 1.5em;
@@ -80,7 +81,6 @@ body {
     position: absolute;
     margin-left: 95%;
     margin-bottom: 4em;
-
 }
 
 @media (min-width: 48em) {
