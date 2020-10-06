@@ -83,6 +83,10 @@ body {
     margin-bottom: 4em;
 }
 
+.flechatop a {
+    color: white;
+}
+
 @media (min-width: 48em) {
     .principal {
         display: flex;
@@ -110,6 +114,7 @@ body {
     .flechatop {
         display: none;
     }
+    
 
     .article-plato {
         display: flex;
